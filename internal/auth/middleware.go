@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/Oloruntobi1/hacker/internal/users"
-	"github.com/Oloruntobi1/hacker/pkg/jwt"
+	"github.com/Oloruntobi1/hacker/internal/pkg/jwt"
 )
 
 var userCtxKey = &contextKey{"user"}
